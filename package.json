@@ -1,22 +1,22 @@
 {
-    "name": "gitmoji-vscode",
-    "displayName": "Gitmoji",
-    "description": "Gitmoji tool for git commit messages in VSCode",
-    "version": "1.2.3",
+    "name": "conventional-gitmoji-vscode",
+    "displayName": "Gitmoji Conventional Commit",
+    "description": "Gitmoji tool for git commit messages in VSCode w/ conventional commit support",
+    "version": "1.0.0",
     "author": {
-        "name": "Seaton Jiang",
-        "email": "hi@seatonjiang.com"
+        "name": "Milan CAMUS",
+        "email": "pro@turtletv.fr"
     },
-    "publisher": "seatonjiang",
+    "publisher": "mistergooddeal",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/seatonjiang/gitmoji-vscode/issues"
+        "url": "https://github.com/MisterGoodDeal/conventional-gitmoji-vscode/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/seatonjiang/gitmoji-vscode.git"
+        "url": "https://github.com/MisterGoodDeal/conventional-gitmoji-vscode.git"
     },
-    "homepage": "https://github.com/seatonjiang/gitmoji-vscode/blob/main/README.md",
+    "homepage": "https://github.com/MisterGoodDeal/conventional-gitmoji-vscode/blob/main/README.md",
     "engines": {
         "vscode": "^1.74.0"
     },
@@ -54,7 +54,7 @@
             ]
         },
         "configuration": {
-            "title": "Gitmoji",
+            "title": "Gitmoji Conventional Commit",
             "properties": {
                 "gitmoji.addCustomEmoji": {
                     "type": "array",
